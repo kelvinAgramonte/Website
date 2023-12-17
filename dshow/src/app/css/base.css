@@ -1,0 +1,9 @@
+@tailwind base;
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../../fonts/playfair.woff2");
+    font-display: block;
+    font-weight: 300 900;
+    font-stretch: 75% 12%;
+}
