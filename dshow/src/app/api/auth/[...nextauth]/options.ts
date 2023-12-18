@@ -37,7 +37,6 @@ export const options: NextAuthOptions = {
                 } else {
                     return null;
                 }
-                
             }
         }),
     ],

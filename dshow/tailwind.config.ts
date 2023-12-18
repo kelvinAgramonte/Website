@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "main-bg": "url('/bg_white_img.jpg')",
+        "main-bg": "url('/bg_white_img.jpg)",
       },
       fontFamily: {
         bodyFont: ['Playfair Display', ...defaultTheme.fontFamily.serif],
