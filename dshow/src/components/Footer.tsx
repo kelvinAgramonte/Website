@@ -7,8 +7,13 @@ const Footer = () => {
       <div className="flex justify-around">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div>
-          <Link href="/">Whatever</Link>
-          <Link href="/">Something</Link>
+          <Link href="/" className='hover:text-blue-800 hover:duration-500 border-black'>Clothes</Link>
+        </div>
+        <div>
+            <Link href="/" className='hover:text-blue-800 hover:duration-500 border-black'>Make an Appointment</Link>
+        </div>
+        <div>
+            <Link href="/" className='hover:text-blue-800 hover:duration-500 border-black'>Cosmetics</Link>
         </div>
       </div>
     </footer>

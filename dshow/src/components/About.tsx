@@ -18,7 +18,7 @@ const About = () => {
             </Head>
             <div className='grid w-4/5 grid-cols-8 gap-16 text-black'>
                 <div className='col-span-3 flex flex-col items-start justify-start'>
-                    <h2 className='mb-4 text-lg font-extrabold uppercase text-black'>Biography</h2>
+                    <h2 className='mb-4 text-xl font-extrabold uppercase text-black'>Welcome!</h2>
                     <p className='my-4 font-medium'>
                         Como propietaria de un conjunto único que abarca un salón & spa, una boutique de moda y una línea de cosméticos, 
                         nos esforzamos por ofrecer un enfoque integral hacia la belleza consciente y sostenible.
@@ -32,7 +32,7 @@ const About = () => {
                     </p>
 
                     <br />
-                    
+
                     <p>
                         Es un placer recibirte en nuestros espacios, donde cada detalle se selecciona con esmero para ofrecerte una experiencia enriquecedora. 
                         Estamos comprometidos a ser tu aliado en el viaje hacia la belleza consciente, ofreciendo calidad, 
