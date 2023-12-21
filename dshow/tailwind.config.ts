@@ -19,6 +19,8 @@ const config: Config = {
         bodycolor:"#fbfaf7",
         bgLight: "#1010100d",
         darkText: "#a5a5a5",
+        dark_gray: "#999",
+        btn_darker: "222",
       }
     },
   },

@@ -31,10 +31,10 @@ export const LightBannerText = ({title}: Props) => {
             transition={{ duration: 0.7 }} 
             className="flex gap-x-4 mt-2"
         >
-            <button className="py-3 px-6 border-double border-4 border-white-600 hover:bg-white hover:text-black duration-200 text-sm uppercase font-semibold">
+            <button className="py-3 px-6 border-double border-4 border-white-600 hover:bg-white hover:text-dark duration-200 text-sm uppercase font-semibold">
                 Find out
             </button>
-            <button className="py-3 px-6 border-double border-4 border-white-600 hover:bg-white hover:text-black duration-200 text-sm uppercase font-semibold">
+            <button className="py-3 px-6 border-double border-4 border-white-600 hover:bg-white hover:text-dark duration-200 text-sm uppercase font-semibold">
                 Shop Now
             </button>
         </motion.div>

@@ -39,15 +39,15 @@ const Banner = () => {
         <div className="relative">
             <Slider {...settings}>
                 <div className="w-full h-full relative">
-                    <Image src={bannerone} alt="bannerone" className="w-full h-full relative" />
+                    <Image src={bannerone} alt="bannerone" className="w-full h-full relative overflow-hidden" />
                     <LightBannerText title="Cosmetics" />
                 </div>
                 <div className="w-full h-full relative">
-                    <Image src={bannertwo} alt="bannertwo" className="w-full h-full relative" />
+                    <Image src={bannertwo} alt="bannertwo" className="w-full h-full relative overflow-hidden" />
                     <LightBannerText title="Clothes" />
                 </div>
                 <div className="w-full h-full relative">
-                    <Image src={bannerthree} alt="bannerthree" className="w-full h-full relative absolute left-1/4" />
+                    <Image src={bannerthree} alt="bannerthree" className="w-full h-full relative overflow-hidden absolute left-1/4" />
                     <DarkBannerText title="Salon & Spa" />
                 </div>
             </Slider>
