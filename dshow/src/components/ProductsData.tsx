@@ -2,17 +2,23 @@
 
 import React from 'react';
 
-interface ProductsDataProps {
-  product: any; // Adjust the type according to your product structure
+interface ProductDataProps {
+  product: {
+    image: string;
+    description: string;
+    price: number;
+    // Add other properties based on your product structure
+  };
 }
 
-const ProductsData: React.FC<ProductsDataProps> = ({ product }) => {
-  // Use the 'product' prop within this component
+const ProductsData: React.FC<ProductDataProps> = ({ product }) => {
   return (
-    <div>
-      {/* Display product information */}
-      <p>{product.name}</p>
-      {/* Adjust the display based on the structure of your 'product' object */}
+    <div className="card">
+      <img src={product.image} alt="Product" className="product-image" />
+      <div className="product-details">
+        <h2 className="product-description">{product.description}</h2>
+        <p className="product-price">${product.price}</p>
+      </div>
     </div>
   );
 };

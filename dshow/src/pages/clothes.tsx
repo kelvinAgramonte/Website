@@ -9,6 +9,7 @@ import Products from "@/components/Products";
 import { getProducts } from "@/helpers";
 
 import { SessionProvider } from 'next-auth/react';
+import Promotions from '@/components/clothin_page/promotions';
 
 
 
@@ -32,6 +33,7 @@ export default function ClothesPage() {
     return (
       <SessionProvider>
         <Header />
+        <Promotions />
         <Products products={products} />
         <Footer />
       </SessionProvider>
