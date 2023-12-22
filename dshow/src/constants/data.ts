@@ -6,7 +6,7 @@ export const productData = [
       oldPrice: "200",
       price: 150,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+        "Long sleeve Jacket",
       category: "women",
       image:
         "https://img.freepik.com/free-photo/portrait-beautiful-face-young-woman-with-long-brown-hair_186202-4331.jpg?size=626&ext=jpg&ga=GA1.1.453157835.1694346094&semt=sph",
@@ -20,7 +20,7 @@ export const productData = [
       oldPrice: "70",
       price: 65,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+        "Abrigo no se",
       category: "women",
       image:
         "https://img.freepik.com/free-photo/studio-close-up-portrait-young-fresh-blonde-woman-brown-straw-poncho-wool-black-trendy-hat-round-glasses-looking-camera-green-leather-had-bag_273443-1121.jpg?size=626&ext=jpg&ga=GA1.2.453157835.1694346094&semt=sph",
@@ -34,7 +34,7 @@ export const productData = [
       oldPrice: "70",
       price: 55.99,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+        "Mucho Fleco",
       category: "women",
       image:
         "https://img.freepik.com/free-photo/young-woman-fluffy-jacket-red-sunglasses-looking-into-camera_197531-15044.jpg?size=626&ext=jpg&ga=GA1.2.453157835.1694346094&semt=sph",
@@ -48,7 +48,7 @@ export const productData = [
       oldPrice: "70",
       price: 50,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+        "Un Saco.",
       category: "women",
       image:
         "https://img.freepik.com/free-photo/fashionable-woman-pink-coat-black-hat-posing_273443-2429.jpg?size=626&ext=jpg&ga=GA1.1.453157835.1694346094&semt=sph",
@@ -132,7 +132,7 @@ export const productData = [
       oldPrice: "250",
       price: 245,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+        "Lorem ipsum dolor sit amet,",
       category: "men",
       image:
         "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600",
