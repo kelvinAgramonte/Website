@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 import Container from './Container';
 import ProductsData from './ProductsData';
 import SearchFilter from '@/components/clothin_page/SearchFilter'; // Import your SearchFilter component
+import { Provider } from 'react-redux';
+import { store } from '@/redux/store'; // Import your Redux store
+
 
 interface Product {
   // Define your product structure
@@ -38,14 +41,16 @@ const Products: React.FC<ProductsProps> = ({ products }) => {
   const categories = Array.from(new Set(products.map((product) => product.category))); // Get unique categories
 
   return (
-    <div>
-      <SearchFilter categories={categories} filterProducts={filterProducts} />
-      <Container className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 -mt-10'>
-        {filteredProducts.map((product) => (
-          <ProductsData key={product._id} product={product} />
-        ))}
-      </Container>
-    </div>
+    <Provider store={store}>
+      <div>
+        <SearchFilter categories={categories} filterProducts={filterProducts} />
+        <Container className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 -mt-10'>
+          {filteredProducts.map((product) => (
+            <ProductsData key={product._id} item={product} />
+          ))}
+        </Container>
+      </div>
+    </Provider>
   );
 };
 
