@@ -9,3 +9,7 @@ export interface Products {
     image:string;
     quantity:number;
 }
+
+export interface ItemProps {
+    item: Products;
+}

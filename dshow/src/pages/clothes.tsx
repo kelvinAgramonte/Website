@@ -7,11 +7,8 @@ import Header from '@/components/Header';
 import Footer from "@/components/Footer";
 import Products from "@/components/Products";
 import { getProducts } from "@/helpers";
-
 import { SessionProvider } from 'next-auth/react';
 import Promotions from '@/components/clothin_page/promotions';
-
-
 
 export default function ClothesPage() {
     const [products, setProducts] = useState<any[]>([]);

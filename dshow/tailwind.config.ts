@@ -21,6 +21,7 @@ const config: Config = {
         darkText: "#a5a5a5",
         dark_gray: "#999",
         btn_darker: "222",
+        textNegro: "000",
       }
     },
   },

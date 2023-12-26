@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Container from './Container';
 import ProductsData from './ProductsData';
-// import { Products } from '../../type';
 import SearchFilter from '@/components/clothin_page/SearchFilter'; // Import your SearchFilter component
 
 interface Product {
@@ -21,7 +20,7 @@ interface Product {
 }
 
 interface ProductsProps {
-  products: Product[];
+  products: any[]; // Adjust the type according to your product structure
 }
 
 const Products: React.FC<ProductsProps> = ({ products }) => {
